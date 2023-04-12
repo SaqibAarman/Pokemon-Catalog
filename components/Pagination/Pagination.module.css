@@ -1,0 +1,17 @@
+.page {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #ec7220;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.pageNum {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #ec7220;
+  background-color: #fff;
+}
