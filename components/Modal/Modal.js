@@ -20,7 +20,7 @@ const Modal = ({ open, onClose, evolution }) => {
           <div className={styles.content}>
             {evolution !== null ? (
               evolution?.map((item) => (
-                <div className={styles.cardData}>
+                <div className={styles.cardData} key={item.id}>
                   <Image
                     src={item.image}
                     width={100}
